@@ -1,1 +1,16 @@
 <mat-icon>menu</mat-icon>
+<button mat-raised-button>Say Hello</button>
+<mat-toolbar class="navbar">
+    <div>Service</div>
+    <div class="navbar__links">
+        <span [matMenuTriggerFor]='navmenu'>Business Unit</span>
+        <span>Channel</span>
+        <span>Products</span>
+        <span>Time</span>
+    </div>
+</mat-toolbar>
+
+<mat-menu #navmenu="matMenu">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+</mat-menu>

@@ -1,0 +1,11 @@
+
+
+.navbar {
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-bottom: thin solid #999;
+}
+span {
+    padding-right: 1rem;
+}
