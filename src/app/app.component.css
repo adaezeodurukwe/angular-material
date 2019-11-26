@@ -9,3 +9,65 @@
 span {
     padding-right: 1rem;
 }
+
+.mat-card {
+    height: 353px;
+    width: 215px;
+    color: #FFFFFF;
+    border-radius: 17px;
+    text-align: center;
+    /* background: linear-gradient(155.43deg, #F26622 0%, #D80000 100%), radial-gradient(circle, #2CAEA9 0%, #007F7A 100%); */
+    background-image: url('../assets/img/pending_transaction_bg.svg');
+    background-size: cover;
+    box-shadow: 0 32px 23px -12px #E7EBF0, 0 35px 52px -38px #007F7A;
+}
+
+#heading-icon {
+    color: #FFEE96;
+    cursor: pointer;
+}
+
+.mat-card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.mat-card-title span {
+    padding: 0;
+}
+
+.mat-card-content {
+    
+    /* font-family: Raleway; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.mat-card-content span {
+    padding: 0px;
+}
+
+.pending-transactions__figure {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.italic {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.num {
+    font-size: 14px;
+    font-weight: bold;
+}
+#more-icon {
+    float: right;
+}
+
+/* .pending-transactions__title {
+    width: 50%;
+    text-align: center;
+} */
