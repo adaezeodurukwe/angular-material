@@ -10,7 +10,7 @@ span {
     padding-right: 1rem;
 }
 
-.mat-card {
+.pending-transactions {
     height: 353px;
     width: 215px;
     color: #FFFFFF;
@@ -27,16 +27,16 @@ span {
     cursor: pointer;
 }
 
-.mat-card-title {
+.pending-transactions .mat-card-title {
     display: flex;
     flex-direction: column;
 }
 
-.mat-card-title span {
+.pending-transactions .mat-card-title span {
     padding: 0;
 }
 
-.mat-card-content {
+.pending-transactions .mat-card-content {
     
     /* font-family: Raleway; */
     display: flex;
@@ -45,7 +45,7 @@ span {
     text-align: center;
 }
 
-.mat-card-content span {
+.pending-transactions .mat-card-content span {
     padding: 0px;
 }
 
