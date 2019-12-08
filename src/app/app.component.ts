@@ -11,9 +11,15 @@ import 'chartjs-plugin-datalabels';
 export class AppComponent implements OnInit {
   title = 'material-demo';
   pieChart = [];
+  random = ['meat', 'fish', 'jelly', 'beans', 'fish', 'jelly', 'beans', 'fish', 'jelly', 'beans', 'fish', 'jelly', 'beans', 'jumk', 'moot', 'mee'];
 
   ngOnInit() {
     this.initializePieChart();
+  }
+
+  options = {
+    autoHide:false,
+    scrollbarMinSize: 150
   }
 
   initializePieChart() {

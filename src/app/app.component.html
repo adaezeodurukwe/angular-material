@@ -10,7 +10,7 @@
     </div>
 </mat-toolbar>
 
-<mat-menu #navmenu="matMenu">
+<!-- <mat-menu #navmenu="matMenu">
     <button mat-menu-item>Item 1</button>
     <button mat-menu-item>Item 2</button>
 </mat-menu>
@@ -30,8 +30,23 @@
     <mat-card-footer>
         <button mat-button>View All <mat-icon>arrow_right</mat-icon> </button>
     </mat-card-footer>
-</mat-card>
+</mat-card> -->
 
-<mat-card>
+<!-- <mat-card>
     <canvas id="pieChart"></canvas>
+</mat-card> -->
+
+<!-- <mat-card class="summary">
+<div class="content">
+    <span class="figure">40000000</span>
+    <span class="description">Budget Values</span>
+    <span class="percent">60% Realized</span>
+</div>
+</mat-card> -->
+<mat-card>
+    <ngx-simplebar [options]="options">
+        <mat-checkbox *ngFor='let stuff of random'>
+            {{stuff}}
+        </mat-checkbox>
+    </ngx-simplebar>
 </mat-card>

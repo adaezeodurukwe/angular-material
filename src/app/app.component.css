@@ -10,6 +10,17 @@ span {
     padding-right: 1rem;
 }
 
+ngx-simplebar {
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.mat-checkbox {
+    display: block;
+}
+
 .pending-transactions {
     height: 353px;
     width: 215px;
@@ -71,3 +82,40 @@ span {
     width: 50%;
     text-align: center;
 } */
+
+.summary {
+    width: 21rem;
+    height: 13rem;
+}
+
+.content span {
+    height: 20px;
+    width: auto;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    height: 13rem;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    border-radius: 6px;	background: linear-gradient(180deg, #BEBEEB 0%, rgba(255,255,255,0.67) 51.13%, rgba(255,255,255,0) 100%);
+}
+
+.figure {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.description {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.1px;
+    color: #A8A9BF;
+}
+
+.percent {
+    font-size: 12px;
+}
